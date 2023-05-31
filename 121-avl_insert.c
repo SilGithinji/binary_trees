@@ -1,5 +1,7 @@
 #include "binary_trees.h"
 
+/** Isaac Githinji */
+
 size_t height(const binary_tree_t *tree);
 int balance(const binary_tree_t *tree);
 avl_t *avl_insert_recursive(avl_t **tree, avl_t *parent,
@@ -12,9 +14,6 @@ avl_t *avl_insert(avl_t **tree, int value);
  *
  * Return: If tree is NULL, your function must return 0, else return height.
  */
-
-/** Isaac Githinji */
-
 size_t height(const binary_tree_t *tree)
 {
 	if (tree != NULL)
